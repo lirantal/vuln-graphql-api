@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:19.9.0-buster-slim
 
 RUN apt update && apt upgrade -y
 
